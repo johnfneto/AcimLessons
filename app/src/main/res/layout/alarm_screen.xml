@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/alarm_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Time for you Lesson!"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/alarm_screen_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarm_screen_title"
+        android:layout_marginTop="20dp"
+        android:text="00 : 00"
+        android:textSize="52dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/lesson_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_lesson_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Alarm name"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/lesson_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Alarm name"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/start_lesson_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:text="Start my Lesson"
+        android:textSize="30dp"
+        android:layout_below="@+id/alarm_screen_time"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/snooze_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:text="Snooze"
+        android:textSize="30dp"
+        android:layout_below="@+id/lesson_name"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/dismiss_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Dismiss"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

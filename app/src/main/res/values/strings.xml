@@ -1,0 +1,834 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">acim</string>
+    <string-array name="menu_array">
+        <item>Today\'s Lesson</item>
+        <item>Text</item>
+        <item>Manual for Teachers</item>
+        <item>Reminders</item>
+        <item>Find a Lesson</item>
+        <item>Search</item>
+        <item>Bookmarks</item>
+        <item>I feel guided</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_search">Search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <string name="menu_add_alarm">Add</string>
+    <string name="menu_add_bookmark">Add Bookmark</string>
+    <string name="menu_book_mark">My Bookmarks</string>
+    <string name="menu_shuffle">I feel guided</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_feedback">Send feedback</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about_us">About us</string>
+    <string name="search_hint">Search Hint</string>
+
+
+    <string name="details_alarm_name">Alarm Name</string>
+    <string name="details_repeat_weekly">Repeat Weekly</string>
+    <string name="details_sunday">Sunday</string>
+    <string name="details_monday">Monday</string>
+    <string name="details_tuesday">Tuesday</string>
+    <string name="details_wednesday">Wednesday</string>
+    <string name="details_thursday">Thursday</string>
+    <string name="details_friday">Friday</string>
+    <string name="details_saturday">Saturday</string>
+    <string name="details_alarm_tone">Alarm Tone</string>
+    <string name="details_alarm_vibrate">Vibrate</string>
+    <string name="details_alarm_tone_default">Select an alarm tone</string>
+
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+
+    <string-array name="repeat_times">
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>45 min</item>
+        <item>1 hour</item>
+        <item>1.5 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+    </string-array>
+
+    <integer-array name="repeat_times_min">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+
+    <string-array name="lesson_titles">
+        <item>Nothing I See Means Anything</item>
+        <item>I Have Given Everything I See All The Meaning It Has For Me</item>
+        <item>I Do Not Understand Anything I See</item>
+        <item>These Thoughts Do Not Mean Anything</item>
+        <item>I Am Never Upset For The Reason I Think</item>
+        <item>I Am Upset Because I See Something That Is Not There.</item>
+        <item>I See Only The Past.</item>
+        <item>My Mind Is Preoccupied With Past Thoughts</item>
+        <item>I See Nothing As It Is Now</item>
+        <item>My Thoughts Do Not Mean Anything</item>
+        <item>My Meaningless Thoughts Are Showing Me A Meaningless World</item>
+        <item>I Am Upset Because I See A Meaningless World</item>
+        <item>A meaningless world engenders fear.</item>
+        <item>God Did Not Create A Meaningless world</item>
+        <item>My Thought Are Images That I Have Made</item>
+        <item>I have no neutral thoughts</item>
+        <item>I see no neutral things</item>
+        <item>I am not alone in experiencing the effects of my seeing</item>
+        <item>I am not alone in experiencing the effects of my thoughts</item>
+        <item>I am determined to see</item>
+        <item>I am determined to see things differently</item>
+        <item>What I see is a form of vengeance</item>
+        <item>I can escape from the world I see by giving up attack thoughts</item>
+        <item>I do not perceive my own best interests</item>
+        <item>I do not know what anything is for</item>
+        <item>My attack thoughts are attacking my invulnerability</item>
+        <item>Above all else I want to see</item>
+        <item>Above all else I want to see things differently</item>
+        <item>God is in everything I see</item>
+        <item>God is in everything I see because God is in my mind</item>
+        <item>I am not the victim of the world I see</item>
+        <item>I have invented the world I see</item>
+        <item>There is another way of looking at the worl</item>
+        <item>I could see peace instead of this</item>
+        <item>My mind is part of God\'s. I am very holy</item>
+        <item>My holiness envelops everything I see</item>
+        <item>My holiness blesses the world</item>
+        <item>There is nothing my holiness cannot do</item>
+        <item>My holiness is my salvation</item>
+        <item>I am blessed as a Son of God</item>
+        <item>God goes with me wherever I go</item>
+        <item>God is my strength. Vision is His gift</item>
+        <item>God is my Source. I cannot see apart from Him</item>
+        <item>God is the Light in which I see</item>
+        <item>God is the Mind with which I think</item>
+        <item>God is the Love in which I forgive</item>
+        <item>God is the Strength in which I trust</item>
+        <item>There is nothing to fear</item>
+        <item>God\'s Voice speaks to me all through the day</item>
+        <item>I am sustained by the Love of God</item>
+        <item>Review 1 thru 5</item>
+        <item>Review 6 thru 10</item>
+        <item>Review 11 thru 15</item>
+        <item>Review 16 thru 20</item>
+        <item>Review 21 thru 25</item>
+        <item>Review 26 thru 30</item>
+        <item>Review 31 thru 35</item>
+        <item>Review 36 thru 40</item>
+        <item>Review 41 thru 45</item>
+        <item>Review 46 thru 50</item>
+        <item>I am the light of the world</item>
+        <item>Forgiveness is my function as the light of the world</item>
+        <item>The light of the world brings peace to every mind through my forgiveness</item>
+        <item>Let me not forget my function</item>
+        <item>My only function is the one God gave me</item>
+        <item>My happiness and my function are one</item>
+        <item>Love created me like Itself</item>
+        <item>Love holds no grievances</item>
+        <item>My grievances hide the light of the world in me</item>
+        <item>My salvation comes from me</item>
+        <item>Only God\'s plan for salvation will work</item>
+        <item>Holding grievances is an attack on God\'s plan for salvation</item>
+        <item>I will there be light</item>
+        <item>There is no will but God\'s</item>
+        <item>The light has come</item>
+        <item>I am under no laws but God\'s</item>
+        <item>I am entitled to miracles</item>
+        <item>Let miracles replace all grievances</item>
+        <item>Let me recognize the problem so it can be solved</item>
+        <item>Let me recognize my problems have been solved</item>
+        <item>Review 61 &amp; 62</item>
+        <item>Review 63 &amp; 64</item>
+        <item>Review 65 &amp; 66</item>
+        <item>Review 67 &amp; 68</item>
+        <item>Review 69 &amp; 70</item>
+        <item>Review 71 &amp; 72</item>
+        <item>Review 73 &amp; 74</item>
+        <item>Review 75 &amp; 76</item>
+        <item>Review 77 &amp; 78</item>
+        <item>Review 79 &amp; 80</item>
+        <item>Miracles are seen in light</item>
+        <item>Miracles are seen in light, and light and strength are one</item>
+        <item>Light and joy and peace abide in me</item>
+        <item>I am as God created me</item>
+        <item>I am One Self, united with my Creator</item>
+        <item>Salvation comes from my One Self</item>
+        <item>I am Spirit</item>
+        <item>I will accept my part in God\'s plan for salvation</item>
+        <item>Salvation is my only function here</item>
+        <item>My part is essential to God\'s plan for salvation</item>
+        <item>God\'s Will for me is perfect happiness</item>
+        <item>I share God\'s Will for happiness for me</item>
+        <item>God, being Love, is also happiness</item>
+        <item>I seek but what belongs to me in truth</item>
+        <item>God\'s peace and joy are mine</item>
+        <item>Let me be still and listen to the truth</item>
+        <item>Truth will correct the errors in my mind</item>
+        <item>To give and to receive are one in truth</item>
+        <item>I rest in God</item>
+        <item>I am as God created me</item>
+        <item>Review 91 &amp; 92</item>
+        <item>Review 93 &amp; 94</item>
+        <item>Review 95 &amp; 96</item>
+        <item>Review 97 &amp; 98</item>
+        <item>Review 99 &amp; 100</item>
+        <item>Review 101 &amp;102</item>
+        <item>Review 103 &amp; 104</item>
+        <item>Review 105 &amp; 106</item>
+        <item>Review 107 &amp; 108</item>
+        <item>Review 109 &amp; 110</item>
+        <item>Forgiveness is the Key to Happiness</item>
+        <item>Forgiveness offers everything I want</item>
+        <item>I thank my Father for His gifts to me</item>
+        <item>Let me remember I am one with God</item>
+        <item>In quiet I receive God\'s Word today</item>
+        <item>All that I give is given to myself</item>
+        <item>There is no love but God\'s</item>
+        <item>The world I see has nothing that I want</item>
+        <item>Beyond this world there is a world I want</item>
+        <item>It is impossible to see two worlds</item>
+        <item>No one can fail who asks to reach the truth</item>
+        <item>I loose the world from all I thought it was</item>
+        <item>I will not value what is valueless</item>
+        <item>Let me perceive forgiveness as it is</item>
+        <item>If I defend myself I am attacked</item>
+        <item>Sickness is a defence against the truth</item>
+        <item>When I am healed I am not healed alone</item>
+        <item>Heaven is the decision I must make</item>
+        <item>I will accept Atonement for myself</item>
+        <item>Only salvation can be said to cure</item>
+        <item>Review 121 &amp; 122</item>
+        <item>Review 123 &amp; 124</item>
+        <item>Review 125 &amp; 126</item>
+        <item>Review 127 &amp; 128</item>
+        <item>Review 129 &amp; 130</item>
+        <item>Review 131 &amp; 132</item>
+        <item>Review 133 &amp; 134</item>
+        <item>Review 135 &amp; 136</item>
+        <item>Review 137 &amp; 138</item>
+        <item>Review 139 &amp; 140</item>
+        <item>All things are echoes of the Voice of God</item>
+        <item>The power of decision is my own</item>
+        <item>In my defencelessness my safety lies</item>
+        <item>I am among the ministers of God</item>
+        <item>I will step back and let Him lead the way</item>
+        <item>I walk with God in perfect holiness</item>
+        <item>Into His Presence would I enter now</item>
+        <item>Today I learn to give as I receive</item>
+        <item>I give the miracles I have received</item>
+        <item>I am at home. Fear is the stranger here</item>
+        <item>Give me your blessing, holy Son of God</item>
+        <item>I am as God created me</item>
+        <item>There is no death. The Son of God is free</item>
+        <item>Now are we One with Him Who is our Source</item>
+        <item>Let not my mind deny the Thought of God</item>
+        <item>I am entrusted with the gifts of God</item>
+        <item>There is one life, and that I share with God</item>
+        <item>Your grace is given me. I claim it now</item>
+        <item>By grace I live. By grace I am released</item>
+        <item>There is no cruelty in God and none in me</item>
+        <item>Review 151 &amp; 152</item>
+        <item>Review 153 &amp; 154</item>
+        <item>Review 155 &amp; 156</item>
+        <item>Review 157 &amp; 158</item>
+        <item>Review 159 &amp; 160</item>
+        <item>Review 161 &amp; 162</item>
+        <item>Review 163 &amp; 164</item>
+        <item>Review 165 &amp; 166</item>
+        <item>Review 167 &amp; 168</item>
+        <item>Review 169 &amp; 170</item>
+        <item>I trust my brothers, who are one with me</item>
+        <item>I call upon God\'s Name and on my own</item>
+        <item>I will be still a moment and go home</item>
+        <item>The Name of God is my inheritance</item>
+        <item>I want the peace of God</item>
+        <item>Salvation of the world depends on me</item>
+        <item>I bless the world because I bless myself</item>
+        <item>The peace of God is shining in me now</item>
+        <item>I feel the Love of God within me now</item>
+        <item>I choose the joy of God instead of pain</item>
+        <item>I am the holy Son of God Himself</item>
+        <item>I have a function God would have me fill</item>
+        <item>All things are lessons God would have me learn</item>
+        <item>I place the future in the Hands of God</item>
+        <item>Love is the way I walk in gratitude</item>
+        <item>It can be but myself I crucify</item>
+        <item>It can be but my gratitude I earn</item>
+        <item>Only my condemnation injures me</item>
+        <item>I am not a body. I am free</item>
+        <item>There is no peace except the peace of God</item>
+        <item>Review 181</item>
+        <item>Review 182</item>
+        <item>Review 183</item>
+        <item>Review 184</item>
+        <item>Review 185</item>
+        <item>Review 186</item>
+        <item>Review 187</item>
+        <item>Review 188</item>
+        <item>Review 189</item>
+        <item>Review 190</item>
+        <item>Review 191</item>
+        <item>Review 192</item>
+        <item>Review 193</item>
+        <item>Review 194</item>
+        <item>Review 195</item>
+        <item>Review 196</item>
+        <item>Review 197</item>
+        <item>Review 198</item>
+        <item>Review 199</item>
+        <item>Review 200</item>
+        <item>Peace to my mind. Let all my thoughts be still</item>
+        <item>God is with me. I live and breath in Him</item>
+        <item>God is my life. I have no life but His</item>
+        <item>God is my Father, and He loves His Son</item>
+        <item>God is my Father, and His Son loves Him</item>
+        <item>My home awaits me. I will hasten there</item>
+        <item>This is my holy instant of release</item>
+        <item>God has condemned me not. No more do I</item>
+        <item>Love, Which created me, is what I am</item>
+        <item>Now will I seek and find the peace of God</item>
+        <item>Father, I will but to remember You</item>
+        <item>Be in my mind, my Father, through the day</item>
+        <item>I give my life to God to run today</item>
+        <item>Father, today I am Your Son again</item>
+        <item>God in His mercy wills that I be saved</item>
+        <item>I rule my mind, which I alone must rule</item>
+        <item>Now would I be as God created me</item>
+        <item>On my decision all salvation rests</item>
+        <item>The glory of my Father is my own</item>
+        <item>Fear is not justified in any form</item>
+        <item>This holy instant is salvation come</item>
+        <item>This day is God\'s. It is my gift to Him</item>
+        <item>Today I will judge nothing that occurs</item>
+        <item>I am in danger nowhere in the world</item>
+        <item>Your peace is with me, Father. I am safe</item>
+        <item>To love my Father is to love His Son</item>
+        <item>Without forgiveness I will still be blind</item>
+        <item>Whatever suffers is not part of me</item>
+        <item>Forgiveness ends all suffering and loss</item>
+        <item>Let me not see myself as limited</item>
+        <item>I am in need of nothing but the truth</item>
+        <item>The Son of God is my identity</item>
+        <item>My Self is ruler of the universe</item>
+        <item>Let every voice but God\'s be still in me</item>
+        <item>This day I choose to spend in perfect peace</item>
+        <item>God is the only goal I have today</item>
+        <item>Let me remember what my purpose is</item>
+        <item>Let me remember that my goal is God</item>
+        <item>Let me remember that there is no sin</item>
+        <item>Let me remember God created me</item>
+        <item>God is my refuge and security</item>
+        <item>Let me perceive no differences today</item>
+        <item>My holy vision sees all things as pure</item>
+        <item>I am surrounded by the Love of God</item>
+        <item>Creation\'s gentleness is all I see</item>
+        <item>My holy Self abides in you, God\'s Son</item>
+        <item>My heart is beating in the peace of God</item>
+        <item>Let all things be exactly as they are</item>
+        <item>My sight goes forth to look upon Christ\'s face</item>
+        <item>I will not use the body\'s eyes today</item>
+        <item>Christ\'s is the vision I will use today</item>
+        <item>How can illusions satisfy God\'s Son</item>
+        <item>The stillness of the peace of God is mine</item>
+        <item>Today belongs to Love. Let me not fear</item>
+        <item>God\'s healing Voice protects all things today</item>
+        <item>The Word of God is given me to speak</item>
+        <item>Let me not bind Your Son with laws I made</item>
+        <item>If I am bound, my Father is not free</item>
+        <item>Creation\'s freedom promises my own</item>
+        <item>What limits can I lay upon God\'s Son?</item>
+        <item>I can be hurt by nothing but my thoughts</item>
+        <item>I will not be afraid of love today</item>
+        <item>My true Identity abides in You</item>
+        <item>I can elect to change all thoughts that hurt</item>
+        <item>My holiness shines bright and clear today</item>
+        <item>The hush of Heaven holds my heart today</item>
+        <item>You are my goal, my Father. Only You</item>
+        <item>Let me forget my brother\'s past today</item>
+        <item>The past is over. It can touch me not</item>
+        <item>My present happiness is all I see</item>
+        <item>This is a day of stillness and of peace</item>
+        <item>A happy outcome to all things is sure</item>
+        <item>All fear is past, and only love is here</item>
+        <item>My body is a wholly neutral thing</item>
+        <item>The Holy Spirit looks through me today</item>
+        <item>The Holy Spirit speaks through me today</item>
+        <item>Forgiveness is the only gift I give</item>
+        <item>I love You, Father, and I love Your Son</item>
+        <item>Eternal holiness abides in me</item>
+        <item>Only an instant does this world endure</item>
+        <item>And God Himself shall wipe away all tears</item>
+        <item>Where darkness was I look upon the light</item>
+        <item>The holy Christ is born in me today</item>
+        <item>Let not my world obscure the sight of Christ</item>
+        <item>There is a peace that Christ bestows on us</item>
+        <item>The gift of Christ is all I seek today</item>
+        <item>Conflicting wishes cannot be my will</item>
+        <item>This instant is the only time there is</item>
+        <item>I will not fear to look within today</item>
+        <item>In fearlessness and love I spend today</item>
+        <item>I judge all things as I would have them be</item>
+        <item>I see all things as I would have them be</item>
+        <item>Now let a new perception come to me</item>
+        <item>I seek a future different from the past</item>
+        <item>All gifts my brothers give belong to me</item>
+        <item>All gifts I give my brothers are my own</item>
+        <item>I follow in the way appointed me</item>
+        <item>In me salvation\'s means and end are one</item>
+        <item>I came for the salvation of the world</item>
+        <item>My Father gives all power unto me</item>
+        <item>Father, my freedom is in You alone</item>
+        <item>I can give up but what was never real</item>
+        <item>I gladly make the \'sacrifice\' of fear</item>
+        <item>I merely follow, for I would not lead</item>
+        <item>All things I think I see reflect ideas</item>
+        <item>I am forever an Effect of God</item>
+        <item>I need but call and You will answer me</item>
+        <item>I choose the second place to gain the first</item>
+        <item>I have already chosen what You will</item>
+        <item>I will not hurt myself again today</item>
+        <item>There is no conflict, for my will is Yours</item>
+        <item>Fear binds the world. Forgiveness sets it free</item>
+        <item>Forgiveness ends the dream of conflict here</item>
+        <item>Today I claim the gifts forgiveness gives</item>
+        <item>I choose to see my brother\'s sinlessness</item>
+        <item>Forgiveness lets me know that minds are joined</item>
+        <item>My sinlessness protects me from all harm</item>
+        <item>I am affected only by my thoughts</item>
+        <item>I will receive whatever I request</item>
+        <item>I can be free of suffering today</item>
+        <item>I can attack but my own sinlessness, And it is only that which keeps me safe.</item>
+        <item>I let forgiveness rest upon all things, For thus forgiveness will be given me.</item>
+        <item>I am not asked to make a sacrifice To find the mercy and the peace of God.</item>
+        <item>Today I learn the law of love; that what I give my brother is my gift to me.</item>
+        <item>I offer only miracles today, For I would have them be returned to me.</item>
+        <item>Today the peace of God envelops me, And I forget all things except His Love.</item>
+        <item>Anger must come from judgment. Judgment is The weapon I would use against myself, To keep the miracle away from me.</item>
+        <item>I have no cause for anger or for fear, For You surround me. And in every need That I perceive, Your grace suffices me.</item>
+        <item>Today I let Christ\'s vision look upon All things for me and judge them not, but give Each one a miracle of love instead.</item>
+        <item>Miracles mirror God\'s eternal Love. To offer them is to remember Him, And through His memory to save the world.</item>
+        <item>My sinless brother is my guide to peace. My sinful brother is my guide to pain. And which I choose to see I will behold.</item>
+        <item>Judgment and love are opposites. From one Come all the sorrows of the world. But from The other comes the peace of God Himself.</item>
+        <item>My eyes, my tongue, my hands, my feet today Have but one purpose; to be given Christ To use to bless the world with miracles.</item>
+        <item>We stand together, Christ and I, in peace And certainty of purpose. And in Him Is His Creator, as He is in me.</item>
+        <item>There is no end to all the peace and joy, And all the miracles that I will give, When I accept God\'s Word. Why not today?</item>
+        <item>Sickness is but another name for sin. Healing is but another name for God. The miracle is thus a call to Him.</item>
+        <item>Truth answers every call we make to God, Responding first with miracles, and then Returning unto us to be itself.</item>
+        <item>No call to God can be unheard nor left Unanswered. And of this I can be sure; His answer is the one I really want.</item>
+        <item>God\'s answer is some form of peace. All pain Is healed; all misery replaced with joy. All prison doors are opened. And all sin Is understood as merely a mistake.</item>
+        <item>Peace be to me, the holy Son of God. Peace to my brother, who is one with me. Let all the world be blessed with peace through us.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+    </string-array>
+
+
+    <string-array name="lesson_exercises">
+        <item>Nothing I See Means Anything</item>
+        <item>I Have Given Everything I See All The Meaning It Has For Me</item>
+        <item>I Do Not Understand Anything I See</item>
+        <item>These Thoughts Do Not Mean Anything</item>
+        <item>I Am Never Upset For The Reason I Think</item>
+        <item>I Am Upset Because I See Something That Is Not There.</item>
+        <item>I See Only The Past.</item>
+        <item>My Mind Is Preoccupied With Past Thoughts</item>
+        <item>I See Nothing As It Is Now</item>
+        <item>My Thoughts Do Not Mean Anything</item>
+        <item>My Meaningless Thoughts Are Showing Me A Meaningless World</item>
+        <item>I Am Upset Because I See A Meaningless World</item>
+        <item>A meaningless world engenders fear.</item>
+        <item>God Did Not Create A Meaningless world</item>
+        <item>My Thought Are Images That I Have Made</item>
+        <item>I have no neutral thoughts</item>
+        <item>I see no neutral things</item>
+        <item>I am not alone in experiencing the effects of my seeing</item>
+        <item>I am not alone in experiencing the effects of my thoughts</item>
+        <item>I am determined to see</item>
+        <item>I am determined to see things differently</item>
+        <item>What I see is a form of vengeance</item>
+        <item>I can escape from the world I see by giving up attack thoughts</item>
+        <item>I do not perceive my own best interests</item>
+        <item>I do not know what anything is for</item>
+        <item>My attack thoughts are attacking my invulnerability</item>
+        <item>Above all else I want to see</item>
+        <item>Above all else I want to see things differently</item>
+        <item>God is in everything I see</item>
+        <item>God is in everything I see because God is in my mind</item>
+        <item>I am not the victim of the world I see</item>
+        <item>I have invented the world I see</item>
+        <item>There is another way of looking at the worl</item>
+        <item>I could see peace instead of this</item>
+        <item>My mind is part of God\'s. I am very holy</item>
+        <item>My holiness envelops everything I see</item>
+        <item>My holiness blesses the world</item>
+        <item>There is nothing my holiness cannot do</item>
+        <item>My holiness is my salvation</item>
+        <item>I am blessed as a Son of God</item>
+        <item>God goes with me wherever I go</item>
+        <item>God is my strength. Vision is His gift</item>
+        <item>God is my Source. I cannot see apart from Him</item>
+        <item>God is the Light in which I see</item>
+        <item>God is the Mind with which I think</item>
+        <item>God is the Love in which I forgive</item>
+        <item>God is the Strength in which I trust</item>
+        <item>There is nothing to fear</item>
+        <item>God\'s Voice speaks to me all through the day</item>
+        <item>I am sustained by the Love of God</item>
+        <item>Review Lessons 1 thru 5</item>
+        <item>Review 6 thru 10</item>
+        <item>Review Lessons 11 thru 15</item>
+        <item>Review Lessons 16 thru 20</item>
+        <item>Review Lessons 21 thru 25</item>
+        <item>Review Lessons 26 thru 30</item>
+        <item>Review Lessons 31 thru 35</item>
+        <item>Review Lessons 36 thru 40</item>
+        <item>Review Lessons 41 thru 45</item>
+        <item>Review Lessons 46 thru 50</item>
+        <item>I am the light of the world</item>
+        <item>Forgiveness is my function as the light of the world</item>
+        <item>The light of the world brings peace to every mind through my forgiveness</item>
+        <item>Let me not forget my function</item>
+        <item>My only function is the one God gave me</item>
+        <item>My happiness and my function are one</item>
+        <item>Love created me like Itself</item>
+        <item>Love holds no grievances</item>
+        <item>My grievances hide the light of the world in me</item>
+        <item>My salvation comes from me</item>
+        <item>Only God\'s plan for salvation will work</item>
+        <item>Holding grievances is an attack on God\'s plan for salvation</item>
+        <item>I will there be light</item>
+        <item>There is no will but God\'s</item>
+        <item>The light has come</item>
+        <item>I am under no laws but God\'s</item>
+        <item>I am entitled to miracles</item>
+        <item>Let miracles replace all grievances</item>
+        <item>Let me recognize the problem so it can be solved</item>
+        <item>Let me recognize my problems have been solved</item>
+        <item>Review Lessons 61 &amp; 62</item>
+        <item>Review Lessons 63 &amp; 64</item>
+        <item>Review Lessons 65 &amp; 66</item>
+        <item>Review Lessons 67 &amp; 68</item>
+        <item>Review Lessons 69 &amp; 70</item>
+        <item>Review Lessons 71 &amp; 72</item>
+        <item>Review Lessons 73 &amp; 74</item>
+        <item>Review Lessons 75 &amp; 76</item>
+        <item>Review Lessons 77 &amp; 78</item>
+        <item>Review Lessons 79 &amp; 80</item>
+        <item>Miracles are seen in light</item>
+        <item>Miracles are seen in light, and light and strength are one</item>
+        <item>Light and joy and peace abide in me</item>
+        <item>I am as God created me</item>
+        <item>I am One Self, united with my Creator</item>
+        <item>Salvation comes from my One Self</item>
+        <item>I am Spirit</item>
+        <item>I will accept my part in God\'s plan for salvation</item>
+        <item>Salvation is my only function here</item>
+        <item>My part is essential to God\'s plan for salvation</item>
+        <item>God\'s Will for me is perfect happiness</item>
+        <item>I share God\'s Will for happiness for me</item>
+        <item>God, being Love, is also happiness</item>
+        <item>I seek but what belongs to me in truth</item>
+        <item>God\'s peace and joy are mine</item>
+        <item>Let me be still and listen to the truth</item>
+        <item>Truth will correct the errors in my mind</item>
+        <item>To give and to receive are one in truth</item>
+        <item>I rest in God</item>
+        <item>I am as God created me</item>
+        <item>Review Lessons 91 &amp; 92</item>
+        <item>Review Lessons 93 &amp; 94</item>
+        <item>Review Lessons 95 &amp; 96</item>
+        <item>Review Lessons 97 &amp; 98</item>
+        <item>Review Lessons 99 &amp; 100</item>
+        <item>Review Lessons 101 &amp;102</item>
+        <item>Review Lessons 103 &amp; 104</item>
+        <item>Review Lessons 105 &amp; 106</item>
+        <item>Review Lessons 107 &amp; 108</item>
+        <item>Review Lessons 109 &amp; 110</item>
+        <item>Forgiveness is the Key to Happiness</item>
+        <item>Forgiveness offers everything I want</item>
+        <item>I thank my Father for His gifts to me</item>
+        <item>Let me remember I am one with God</item>
+        <item>In quiet I receive God\'s Word today</item>
+        <item>All that I give is given to myself</item>
+        <item>There is no love but God\'s</item>
+        <item>The world I see has nothing that I want</item>
+        <item>Beyond this world there is a world I want</item>
+        <item>It is impossible to see two worlds</item>
+        <item>No one can fail who asks to reach the truth</item>
+        <item>I loose the world from all I thought it was</item>
+        <item>I will not value what is valueless</item>
+        <item>Let me perceive forgiveness as it is</item>
+        <item>If I defend myself I am attacked</item>
+        <item>Sickness is a defence against the truth</item>
+        <item>When I am healed I am not healed alone</item>
+        <item>Heaven is the decision I must make</item>
+        <item>I will accept Atonement for myself</item>
+        <item>Only salvation can be said to cure</item>
+        <item>Forgiveness is the Key to Happiness.\nForgiveness offers everything I want.</item>
+        <item>I thank my Father for His gifts to me.\nLet me remember I am one with God.</item>
+        <item>In quiet I receive God\'s Word today.\nAll that I give is given to myself.</item>
+        <item>There is no love but God\'s.\nThe world I see holds nothing that I want.</item>
+        <item>Beyond this world there is a world I want.\nIt is impossible to see two worlds.</item>
+        <item>No one can fail who asks to reach the truth.\nI loose the world from all I thought it was.</item>
+        <item>I will not value what is valueless.\nLet me perceive forgiveness as it is.</item>
+        <item>If I defend myself I am attacked.\nSickness is a defence against the truth.</item>
+        <item>When I am healed I am not healed alone.\nHeaven is the decision I must make.</item>
+        <item>I will accept Atonement for myself.\nOnly salvation can be said to cure.</item>
+        <item>All things are echoes of the Voice of God</item>
+        <item>The power of decision is my own</item>
+        <item>In my defencelessness my safety lies</item>
+        <item>I am among the ministers of God</item>
+        <item>I will step back and let Him lead the way</item>
+        <item>I walk with God in perfect holiness</item>
+        <item>Into His Presence would I enter now</item>
+        <item>Today I learn to give as I receive</item>
+        <item>I give the miracles I have received</item>
+        <item>I am at home. Fear is the stranger here</item>
+        <item>Give me your blessing, holy Son of God</item>
+        <item>I am as God created me</item>
+        <item>There is no death. The Son of God is free</item>
+        <item>Now are we One with Him Who is our Source</item>
+        <item>Let not my mind deny the Thought of God</item>
+        <item>I am entrusted with the gifts of God</item>
+        <item>There is one life, and that I share with God</item>
+        <item>Your grace is given me. I claim it now</item>
+        <item>By grace I live. By grace I am released</item>
+        <item>There is no cruelty in God and none in me</item>
+        <item>God is but Love, and therefore som am I.\nAll things are echoes of the Voice of God.\nThe power of decision is my own.</item>
+        <item>God is but Love, and therefore som am I.\nIn my defencelessness my safety lies.\nI am among the ministers of God.</item>
+        <item>God is but Love, and therefore som am I.\nI will step back and let Him lead the way.\nI walk with God in perfect holiness</item>
+        <item>God is but Love, and therefore som am I.\nInto His Presence would I enter now.\nToday I learn to give as I receive.</item>
+        <item>God is but Love, and therefore som am I.\nI give the miracles I have received.\nI am at home. Fear is the stranger here.</item>
+        <item>God is but Love, and therefore som am I.\nGive me your blessing, holy Son of God.\nI am as God created me.</item>
+        <item>God is but Love, and therefore som am I.\nThere is no death. The Son of God is free.\nNow are we One with Him Who is our Source.</item>
+        <item>God is but Love, and therefore som am I.\nLet not my mind deny the Thought of God.\nI am entrusted with the gifts of God.</item>
+        <item>God is but Love, and therefore som am I.\nThere is one life, and that I share with God.\nYour grace is given me. I claim it now</item>
+        <item>God is but Love, and therefore som am I.\nBy grace I live. By grace I am released.\nThere is no cruelty in God and none in me.</item>
+        <item>I trust my brothers, who are one with me</item>
+        <item>I call upon God\'s Name and on my own</item>
+        <item>I will be still a moment and go home</item>
+        <item>The Name of God is my inheritance</item>
+        <item>I want the peace of God</item>
+        <item>Salvation of the world depends on me</item>
+        <item>I bless the world because I bless myself</item>
+        <item>The peace of God is shining in me now</item>
+        <item>I feel the Love of God within me now</item>
+        <item>I choose the joy of God instead of pain</item>
+        <item>I am the holy Son of God Himself</item>
+        <item>I have a function God would have me fill</item>
+        <item>All things are lessons God would have me learn</item>
+        <item>I place the future in the Hands of God</item>
+        <item>Love is the way I walk in gratitude</item>
+        <item>It can be but myself I crucify</item>
+        <item>It can be but my gratitude I earn</item>
+        <item>Only my condemnation injures me</item>
+        <item>I am not a body. I am free</item>
+        <item>There is no peace except the peace of God</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\nI am blessed with oneness with the universe and God, my Father, one Creator of the whole that is my Self, forever One with me.\nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. Why would I choose to stay an instant more where I do not belong, when God Himself has given me His Voice to call me home? \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. The Name of God is my deliverance from every thought of evil and of sin, because it is my own as well as His. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. God\'s Name reminds me that I am His Son, not slave to time, unbound by laws which rule the world of sick illusions, free in God, forever and forever one with Him. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. The peace of God is everything I want. The peace of God is my one goal; the aim of all my living here, the end I seek, my purpose and my function and my life, while I abide where I am not at home. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. I am entrusted with the gifts of God, because I am His Son. And I would give His gifts where He intended them to be. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. God\'s blessing shines upon me from within my heart, where He abides. I need but turn to Him, and every sorrow melts away, as I accept His boundless Love for me. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. I will be still, and let the earth be still along with me. And in that stillness we will find the peace of God. It is within my heart, which witnesses to God Himself. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. The Love of God is what created me. The Love of God is everything I am. The Love of God proclaimed me as His Son. The Love of God within me sets me free. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. Pain is my own idea. It is not a Thought of God, but one I thought apart from Him and from His Will. His Will is joy, and only joy for His beloved Son. And that I choose, instead of what I made. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. In silence and in true humility I seek God\'s glory, to behold it in the Son whom He created as my Self. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. I seek the function that would set me free from all the vain illusions of the world. Only the function God has given me can offer freedom. Only this I seek, and only this will I accept as mine. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. A lesson is a miracle which God offers to me, in place of thoughts I made that hurt me. What I learn of Him becomes the way I am set free. And so I choose to learn His lessons and forget my own. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. The past is gone; the future is not yet. Now am I freed from both. For what God gives can only be for good. And I accept but what He gives as what belongs to me. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. The Holy Spirit is my only Guide. He walks with me in love. And I give thanks to Him for showing me the way to go. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. All that I do I do unto myself. If I attack, I suffer. But if I forgive, salvation will be given me. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. Who should give thanks for my salvation but myself? And how but through salvation can I find the Self to Whom my thanks are due? \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. My condemnation keeps my vision dark, and through my sightless eyes I cannot see the vision of my glory. Yet today I can behold this glory and be glad. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. I am God\'s Son. Be still, my mind, and think a moment upon this. And then return to earth, without confusion as to what my Father loves forever as His Son. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>I am not a body. I am free. For I am still as God created me. No one but is my brother.\n. Let me not wander from the way of peace, for I am lost on other roads than this. 3 But let me follow Him Who leads me home, and peace is certain as the Love of God. \nI am not a body. I am free. For I am still as God created me.</item>
+        <item>Peace to my mind. Let all my thoughts be still</item>
+        <item>God is with me. I live and breath in Him</item>
+        <item>God is my life. I have no life but His</item>
+        <item>God is my Father, and He loves His Son</item>
+        <item>God is my Father, and His Son loves Him</item>
+        <item>My home awaits me. I will hasten there</item>
+        <item>This is my holy instant of release</item>
+        <item>God has condemned me not. No more do I</item>
+        <item>Love, Which created me, is what I am</item>
+        <item>Now will I seek and find the peace of God</item>
+        <item>Father, I will but to remember You</item>
+        <item>Be in my mind, my Father, through the day</item>
+        <item>I give my life to God to run today</item>
+        <item>Father, today I am Your Son again</item>
+        <item>God in His mercy wills that I be saved</item>
+        <item>I rule my mind, which I alone must rule</item>
+        <item>Now would I be as God created me</item>
+        <item>On my decision all salvation rests</item>
+        <item>The glory of my Father is my own</item>
+        <item>Fear is not justified in any form</item>
+        <item>This holy instant is salvation come</item>
+        <item>This day is God\'s. It is my gift to Him</item>
+        <item>Today I will judge nothing that occurs</item>
+        <item>I am in danger nowhere in the world</item>
+        <item>Your peace is with me, Father. I am safe</item>
+        <item>To love my Father is to love His Son</item>
+        <item>Without forgiveness I will still be blind</item>
+        <item>Whatever suffers is not part of me</item>
+        <item>Forgiveness ends all suffering and loss</item>
+        <item>Let me not see myself as limited</item>
+        <item>I am in need of nothing but the truth</item>
+        <item>The Son of God is my identity</item>
+        <item>My Self is ruler of the universe</item>
+        <item>Let every voice but God\'s be still in me</item>
+        <item>This day I choose to spend in perfect peace</item>
+        <item>God is the only goal I have today</item>
+        <item>Let me remember what my purpose is</item>
+        <item>Let me remember that my goal is God</item>
+        <item>Let me remember that there is no sin</item>
+        <item>Let me remember God created me</item>
+        <item>God is my refuge and security</item>
+        <item>Let me perceive no differences today</item>
+        <item>My holy vision sees all things as pure</item>
+        <item>I am surrounded by the Love of God</item>
+        <item>Creation\'s gentleness is all I see</item>
+        <item>My holy Self abides in you, God\'s Son</item>
+        <item>My heart is beating in the peace of God</item>
+        <item>Let all things be exactly as they are</item>
+        <item>My sight goes forth to look upon Christ\'s face</item>
+        <item>I will not use the body\'s eyes today</item>
+        <item>Christ\'s is the vision I will use today</item>
+        <item>How can illusions satisfy God\'s Son</item>
+        <item>The stillness of the peace of God is mine</item>
+        <item>Today belongs to Love. Let me not fear</item>
+        <item>God\'s healing Voice protects all things today</item>
+        <item>The Word of God is given me to speak</item>
+        <item>Let me not bind Your Son with laws I made</item>
+        <item>If I am bound, my Father is not free</item>
+        <item>Creation\'s freedom promises my own</item>
+        <item>What limits can I lay upon God\'s Son?</item>
+        <item>I can be hurt by nothing but my thoughts</item>
+        <item>I will not be afraid of love today</item>
+        <item>My true Identity abides in You</item>
+        <item>I can elect to change all thoughts that hurt</item>
+        <item>My holiness shines bright and clear today</item>
+        <item>The hush of Heaven holds my heart today</item>
+        <item>You are my goal, my Father. Only You</item>
+        <item>Let me forget my brother\'s past today</item>
+        <item>The past is over. It can touch me not</item>
+        <item>My present happiness is all I see</item>
+        <item>This is a day of stillness and of peace</item>
+        <item>A happy outcome to all things is sure</item>
+        <item>All fear is past, and only love is here</item>
+        <item>My body is a wholly neutral thing</item>
+        <item>The Holy Spirit looks through me today</item>
+        <item>The Holy Spirit speaks through me today</item>
+        <item>Forgiveness is the only gift I give</item>
+        <item>I love You, Father, and I love Your Son</item>
+        <item>Eternal holiness abides in me</item>
+        <item>Only an instant does this world endure</item>
+        <item>And God Himself shall wipe away all tears</item>
+        <item>Where darkness was I look upon the light</item>
+        <item>The holy Christ is born in me today</item>
+        <item>Let not my world obscure the sight of Christ</item>
+        <item>There is a peace that Christ bestows on us</item>
+        <item>The gift of Christ is all I seek today</item>
+        <item>Conflicting wishes cannot be my will</item>
+        <item>This instant is the only time there is</item>
+        <item>I will not fear to look within today</item>
+        <item>In fearlessness and love I spend today</item>
+        <item>I judge all things as I would have them be</item>
+        <item>I see all things as I would have them be</item>
+        <item>Now let a new perception come to me</item>
+        <item>I seek a future different from the past</item>
+        <item>All gifts my brothers give belong to me</item>
+        <item>All gifts I give my brothers are my own</item>
+        <item>I follow in the way appointed me</item>
+        <item>In me salvation\'s means and end are one</item>
+        <item>I came for the salvation of the world</item>
+        <item>My Father gives all power unto me</item>
+        <item>Father, my freedom is in You alone</item>
+        <item>I can give up but what was never real</item>
+        <item>I gladly make the \'sacrifice\' of fear</item>
+        <item>I merely follow, for I would not lead</item>
+        <item>All things I think I see reflect ideas</item>
+        <item>I am forever an Effect of God</item>
+        <item>I need but call and You will answer me</item>
+        <item>I choose the second place to gain the first</item>
+        <item>I have already chosen what You will</item>
+        <item>I will not hurt myself again today</item>
+        <item>There is no conflict, for my will is Yours</item>
+        <item>Fear binds the world. Forgiveness sets it free</item>
+        <item>Forgiveness ends the dream of conflict here</item>
+        <item>Today I claim the gifts forgiveness gives</item>
+        <item>I choose to see my brother\'s sinlessness</item>
+        <item>Forgiveness lets me know that minds are joined</item>
+        <item>My sinlessness protects me from all harm</item>
+        <item>I am affected only by my thoughts</item>
+        <item>I will receive whatever I request</item>
+        <item>I can be free of suffering today</item>
+        <item>I can attack but my own sinlessness, And it is only that which keeps me safe.</item>
+        <item>I let forgiveness rest upon all things, For thus forgiveness will be given me.</item>
+        <item>I am not asked to make a sacrifice To find the mercy and the peace of God.</item>
+        <item>Today I learn the law of love; that what I give my brother is my gift to me.</item>
+        <item>I offer only miracles today, For I would have them be returned to me.</item>
+        <item>Today the peace of God envelops me, And I forget all things except His Love.</item>
+        <item>Anger must come from judgment. Judgment is The weapon I would use against myself, To keep the miracle away from me.</item>
+        <item>I have no cause for anger or for fear, For You surround me. And in every need That I perceive, Your grace suffices me.</item>
+        <item>Today I let Christ\'s vision look upon All things for me and judge them not, but give Each one a miracle of love instead.</item>
+        <item>Miracles mirror God\'s eternal Love. To offer them is to remember Him, And through His memory to save the world.</item>
+        <item>My sinless brother is my guide to peace. My sinful brother is my guide to pain. And which I choose to see I will behold.</item>
+        <item>Judgment and love are opposites. From one Come all the sorrows of the world. But from The other comes the peace of God Himself.</item>
+        <item>My eyes, my tongue, my hands, my feet today Have but one purpose; to be given Christ To use to bless the world with miracles.</item>
+        <item>We stand together, Christ and I, in peace And certainty of purpose. And in Him Is His Creator, as He is in me.</item>
+        <item>There is no end to all the peace and joy, And all the miracles that I will give, When I accept God\'s Word. Why not today?</item>
+        <item>Sickness is but another name for sin. Healing is but another name for God. The miracle is thus a call to Him.</item>
+        <item>Truth answers every call we make to God, Responding first with miracles, and then Returning unto us to be itself.</item>
+        <item>No call to God can be unheard nor left Unanswered. And of this I can be sure; His answer is the one I really want.</item>
+        <item>God\'s answer is some form of peace. All pain Is healed; all misery replaced with joy. All prison doors are opened. And all sin Is understood as merely a mistake.</item>
+        <item>Peace be to me, the holy Son of God. Peace to my brother, who is one with me. Let all the world be blessed with peace through us.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+        <item>This holy instant would I give to you.  Be You in charge.  For I would follow you, Certain that Your direction gives me peace.</item>
+    </string-array>
+    <string name="title_activity_base">BaseActivity</string>
+
+</resources>
+

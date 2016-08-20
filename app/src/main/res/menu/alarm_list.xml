@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_new_alarm"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_new_dark"
+        android:showAsAction="always"/>
+
+</menu>

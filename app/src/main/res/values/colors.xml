@@ -1,0 +1,8 @@
+<resources>
+  <color name="action_bar">#d5d5d5</color>
+  <color name="darkslategray">#194362</color>
+  <color name="actionbar">#66ffff</color>
+  <color name="white">#ffffff</color>
+
+    <color name="apptheme_color">#194362</color>
+</resources>

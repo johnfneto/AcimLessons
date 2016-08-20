@@ -1,0 +1,24 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<WebView  
+	    android:id="@+id/webView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/darkslategray"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:padding="5dp" />
+</RelativeLayout>

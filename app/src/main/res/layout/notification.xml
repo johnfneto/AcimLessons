@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>    
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    >
+          
+      <TextView
+          android:id="@+id/imageView1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/darkslategray"
+          android:gravity="center_horizontal"
+          android:text="Daily lesson:"
+          android:textColor="@color/white"
+          android:textSize="20dp" />
+
+  <ListView
+      android:id="@+id/alarmsList"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/imageView1"
+      android:scrollbars="none" />
+
+  <TextView
+      android:id="@+id/TextView02"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/repeatAlarm"
+      android:background="@color/darkslategray"
+      android:gravity="center_horizontal"
+      android:text="Short practice periods:"
+      android:textColor="@color/white"
+      android:textSize="20dp" />
+
+  <RelativeLayout
+      android:id="@+id/repeatAlarm"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:background="@android:drawable/dialog_holo_light_frame">
+
+      <CheckBox
+          android:id="@+id/checkBox1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true" />
+
+      <TextView
+          android:id="@+id/repeatText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/checkBox1"
+          android:layout_alignBottom="@+id/checkBox1"
+          android:layout_centerVertical="true"
+          android:layout_toRightOf="@+id/checkBox1"
+          android:text="Repeats every: 30min"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:textColor="@color/darkslategray"
+          android:textSize="20sp"
+          android:layout_marginLeft="10dp" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/msgView"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:src="@drawable/ic_action_chat"
+          android:layout_marginRight="5dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp" />
+
+  </RelativeLayout>
+ 
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>    
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    style="@style/AppTheme.Dialog">
+
+    <CheckBox
+      android:id="@+id/checkBox1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+      android:layout_marginLeft="15dp"
+      android:text="Forward your Lesson every day"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+  <ImageView
+      android:id="@+id/dividerView"
+      android:layout_width="match_parent"
+      android:layout_height="2dp"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/checkBox1"
+      android:background="@color/darkslategray"
+      android:src="@drawable/action_search" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox1"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Reset your Lesson:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginRight="10dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="number"
+            android:numeric="integer" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="OK"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

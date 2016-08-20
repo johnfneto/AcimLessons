@@ -1,0 +1,331 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="true" >
+
+    <!--
+            <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".AlarmDetailsActivity" >
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        tools:context=".AlarmDetailsActivity" >
+
+        <TimePicker
+            android:id="@+id/alarm_details_time_picker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blue_border" />
+
+        <EditText
+            android:id="@+id/alarm_details_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alarm_details_time_picker"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:ems="10"
+            android:hint="@string/details_alarm_name"
+            android:layout_marginLeft="10dp"
+            android:capitalize="sentences" />
+
+        <View
+            android:id="@+id/divider2"
+            style="@style/Divider"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_details_name" />
+
+        <com.appsolve.acimnew.CustomSwitch
+            android:id="@+id/alarm_details_repeat_weekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/divider2"
+            android:checked="true"
+            android:text="@string/details_repeat_weekly"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+        
+
+
+        <!--<CustomSwitch
+            android:id="@+id/alarm_details_repeat_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/alarm_details_repeat_weekly"
+            android:checked="true"
+            android:visibility="gone"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/details_sunday" />
+
+        <CustomSwitch
+            android:id="@+id/alarm_details_repeat_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_details_repeat_sunday"
+            android:checked="true"
+            android:visibility="gone"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/details_monday" />
+
+        <CustomSwitch
+            android:id="@+id/alarm_details_repeat_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_details_repeat_monday"
+            android:checked="true"
+            android:visibility="gone"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/details_tuesday" />
+        
+        <CustomSwitch
+            android:id="@+id/alarm_details_repeat_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_details_repeat_tuesday"
+            android:checked="true"
+            android:visibility="gone"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/details_wednesday" />
+
+        <CustomSwitch
+            android:id="@+id/alarm_details_repeat_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_details_repeat_wednesday"
+            android:checked="true"
+            android:visibility="gone"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/details_thursday" />
+
+        <CustomSwitch
+            android:id="@+id/alarm_details_repeat_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_details_repeat_thursday"
+            android:checked="true"
+            android:visibility="gone"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/details_friday" />
+
+        <CustomSwitch
+            android:id="@+id/alarm_details_repeat_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_details_repeat_friday"
+            android:checked="true"
+            android:visibility="gone"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/details_saturday" />-->
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/repeat_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/alarm_details_name"
+                android:layout_margin="10dp" >
+
+                <TextView
+                    android:id="@+id/alarm_item_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Repeat"
+                    android:textSize="18sp" />
+
+
+
+                <TextView
+                    android:id="@+id/alarm_item_sunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/alarm_item_time"
+                    android:text="S"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/alarm_item_monday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_item_sunday"
+                    android:layout_below="@+id/alarm_item_time"
+                    android:layout_marginLeft="4dp"
+                    android:text="M"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/alarm_item_tuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_item_monday"
+                    android:layout_below="@+id/alarm_item_time"
+                    android:layout_marginLeft="4dp"
+                    android:text="T"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/alarm_item_wednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_item_tuesday"
+                    android:layout_below="@+id/alarm_item_time"
+                    android:layout_marginLeft="4dp"
+                    android:text="W"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/alarm_item_thursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_item_wednesday"
+                    android:layout_below="@+id/alarm_item_time"
+                    android:layout_marginLeft="4dp"
+                    android:text="T"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/alarm_item_friday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_item_thursday"
+                    android:layout_below="@+id/alarm_item_time"
+                    android:layout_marginLeft="4dp"
+                    android:text="F"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/alarm_item_saturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_item_friday"
+                    android:layout_below="@+id/alarm_item_time"
+                    android:layout_marginLeft="4dp"
+                    android:text="S"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+
+        </RelativeLayout>
+        
+        <View
+            android:id="@+id/divider4"
+            style="@style/Divider"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/repeat_container" />
+
+        <LinearLayout
+            android:id="@+id/alarm_ringtone_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/divider4"
+            android:background="@drawable/view_touch_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/alarm_label_tone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/details_alarm_tone"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/alarm_label_tone_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="@string/details_alarm_tone_default"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider3"
+            style="@style/Divider"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_ringtone_container" />
+
+        <RelativeLayout
+            android:id="@+id/vibrate_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_below="@+id/divider3"
+            android:background="@drawable/view_touch_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/alarm_label_vibrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="@string/details_alarm_vibrate"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vibrateCheckBox"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider5"
+            style="@style/Divider"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/vibrate_container" />
+    </RelativeLayout>
+
+</ScrollView>

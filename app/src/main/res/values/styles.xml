@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+    </style>-->
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:activatedBackgroundIndicator">@drawable/list_activated_background</item>
+
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+        <item name="android:fastScrollThumbDrawable">@drawable/apptheme_fastscroll_thumb_holo</item>
+
+        <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
+
+        <item name="android:listChoiceIndicatorMultiple">@drawable/apptheme_btn_check_holo_light</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+    </style>
+
+
+
+</resources>
